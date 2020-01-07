@@ -4,6 +4,7 @@ import {Route,Switch} from 'react-router-dom'
 import Menu from './components/Menu'
 import Page1 from './pages/page1'
 import Page2 from './pages/page2'
+import Home from './pages/home'
 import './App.scss';
 let App = () => {
   return (
@@ -17,6 +18,7 @@ let App = () => {
         </div>
         <div className="app-content-body">
             <Switch>
+              <Route path="/" exact component={Home} />
               <Route key="1" path='/page1' component={Page1} />
               <Route key="2" path='/page2' component={Page2} />
             </Switch>
