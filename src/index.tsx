@@ -14,8 +14,7 @@ ReactDOM.render(
             <div>
                 <BrowserRouter>
                     <Switch>
-                        {/* <App></App> */}
-                        <Route path="/" exact component={App} />
+                        <Route path="/" component={App} />
                         <Route path="/login" component={Login} />
                     </Switch>
                 </BrowserRouter>
