@@ -19,8 +19,8 @@ let App = () => {
         <div className="app-content-body">
             <Switch>
               <Route path="/" exact component={Home} />
-              <Route key="1" path='/page1' component={Page1} />
-              <Route key="2" path='/page2' component={Page2} />
+              <Route key="1" path='/page1' exact component={Page1} />
+              <Route key="2" path='/page2' exact component={Page2} />
             </Switch>
             {/* <Route path='/page2' exact component={Page2} /> */}
         </div>
