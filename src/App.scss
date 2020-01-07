@@ -1,0 +1,22 @@
+.app {
+  &-header{
+    height: 50px;
+    text-align: center;
+    border: 1px solid gray;
+  }
+  &-content{
+    display: flex;
+    height: calc(100vh - 50px); 
+    &-menu{
+      width: 100px;
+      border: 1px solid gray;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    &-body{
+      flex: 1;
+      padding: 10px;
+    }
+  }
+}
