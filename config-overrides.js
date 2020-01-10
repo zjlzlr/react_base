@@ -6,5 +6,8 @@ module.exports = override(
         libraryName: 'antd',
         libraryDirectory: 'es',
         style: 'css',
+    }),
+    addWebpackAlias({
+        ["@"]: path.resolve(__dirname, "src"),
     })
 );

@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './components/Header'
+import Header from '@/components/Header'
 import {Route,Switch} from 'react-router-dom'
-import Menu from './components/Menu'
-import Page1 from './pages/page1'
-import Page2 from './pages/page2'
-import Home from './pages/home'
-import './App.scss';
+import Menu from '@/components/Menu'
+import Page1 from '@/pages/page1'
+import Page2 from '@/pages/page2'
+import Home from '@/pages/home'
+import '@/App.scss';
 let App = () => {
   return (
     <div className="app">
